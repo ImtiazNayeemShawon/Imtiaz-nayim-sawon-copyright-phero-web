@@ -1,0 +1,727 @@
+.nav ul{
+    list-style: none;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     display: flex;
+
+}
+.nav{
+                 display: flex;
+                 max-width: 100%;
+                 max-height: 100px;
+                    background-color: rgb(250, 163, 49);
+                    box-shadow: 5px 5px 10px gray;
+         border-radius: 7px;  
+
+}
+.nav ul li a{
+                    text-decoration: none;
+                 color: rgb(255, 255, 255);
+                 font-weight: 450;
+                 white-space: 20px;
+               
+
+}
+.nav ul li{
+
+              padding-left:100px ;
+              white-space: 20px;
+}
+.nav h1{
+          margin-left: 10px;   
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;       
+          color: rgb(19, 85, 85);
+          outline-style: solid;
+          border-radius: 7px;
+          max-height: 100px;
+          max-width: 100%;
+
+}
+.nav h1:hover{
+                    background-color: rgb(98, 98, 241);
+                    color: white;
+}
+
+.imgsec img{
+width: 500px;
+min-height: 400px;
+border-radius: 100px;
+display: flex;
+justify-content: flex-end;
+box-shadow: 5px 5px 10px gray;
+}
+.section{
+    display: flex;
+  padding: 100px;
+}
+.section .cont {
+    width: 70%;
+}
+.section .cont p{
+    color: rgb(84, 84, 233);
+    font-size: 20px;
+    font-family: sans-serif;
+    width: 200px;
+    padding: 10px;
+}
+.section .cont h1{
+    font-size: 65px;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    color: rgb(4, 168, 100);
+    
+  
+}
+.section .cont h1 span{
+    color: rgb(108, 108, 243);
+    font-size: 90px;
+    text-shadow: 5px 5px 10px rgb(128, 128, 128);
+  
+}
+ h1 l{
+    color: chartreuse;
+  
+  
+}
+.section .cont h4{
+    color: rgb(248, 46, 46);
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+ width: 70%;
+ box-shadow: 5px 5px 10px gray;
+}
+.section .cont h4{
+   outline: solid rgb(128, 116, 116);
+   padding: 30px;
+   border-radius: 20px;
+}
+.section .cont p:hover{
+ outline: 1px solid gray;
+ border-radius: 20px;
+ box-shadow: 5px 5px 10px gray;
+
+ background-color: rgb(102, 102, 224);
+ color: white;
+ font-weight: 400;
+}
+#b1{
+    padding: 10px;
+    padding-left: 45px;
+    padding-right: 45px;
+    background-color: skyblue;
+    color: white;
+    font-size: 20px;
+    font-family: fantasy;
+    border-width: 0px;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow:  4px 3px 2px  rgb(93, 179, 212);
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    position: relative;
+    left: 170px;
+    top: 50px;
+}
+.centerimg img{
+    border-radius: 180px;
+    width: 300px;
+    box-shadow: 5px 5px 10px gray;
+}
+.center .centercon{
+    float: right;
+    width: 40%;
+    margin-left: 150px;
+    margin-top: 80px;
+    outline: 4px gray solid;
+    border-radius: 20px;
+    height: 300%;
+    padding: 20px;
+    box-shadow: 5px 5px 10px gray;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+}
+.center .centercon h1{
+ color: springgreen;
+ font-family: sans-serif;
+ 
+}
+.center .centercon h3{
+    color: rgb(148, 219, 17);
+    font-size: 20px;
+    font-family: fantasy;
+    font-weight: 100;
+}
+body{
+    background-color: #f0d468;
+}
+#b2{
+    padding: 10px;
+    padding-left: 45px;
+    padding-right: 45px;
+    background-color: skyblue;
+    color: white;
+    font-size: 20px;
+    font-family: fantasy;
+    border-width: 0px;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px gray;
+    display: flex;
+    justify-self: center;
+    text-align: center;
+    position: relative;
+    left: 850px;
+    top: px;
+}
+hr{
+    color: rgb(121, 122, 113);
+    margin-top: 50px;
+}
+#sk{
+    width: 500px;
+    box-shadow: 10px 5px 10px gray;
+
+}
+.serv1{
+    display: flex; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 130px;
+    margin-left: 50px;
+
+
+}
+.html p{
+font-size: 20px;
+color: white;
+font-family: sans-serif;
+width:50%;
+background-color: rgb(147, 207, 135);
+padding: 15px;
+text-align: center;
+border-radius: 15px;
+}
+.css p{
+    font-size: 20px;
+    color: white;
+font-family: sans-serif;
+width:50%;
+background-color: rgb(147, 207, 135);
+padding: 15px;
+text-align: center;
+border-radius: 15px;
+}
+.js p{
+    font-size: 20px;
+    color: white;
+font-family: sans-serif;
+width:50%;
+background-color: rgb(147, 207, 135);
+padding: 15px;
+text-align: center;
+border-radius: 15px;
+}
+i{
+    font-size: 50px;
+}
+.html i{
+    margin-left: 110px;
+    color: rgb(240, 8, 8);
+}
+.css i{
+margin-left: 110px;
+    color: rgb(128, 191, 233);
+}
+.js i{
+    margin-left: 110px;
+    color: rgb(216, 191, 81);
+}
+.dsr h1{
+    font-size: 65px;
+    font-family: sans-serif;
+    font-variant: small-caps;
+    color: rgb(4, 168, 100);
+    text-align: center;
+}
+.bootstrap p{
+    font-size: 20px;
+    color: white;
+font-family: sans-serif;
+width:52%;
+background-color: rgb(147, 207, 135);
+padding: 15px;
+text-align: center;
+border-radius: 15px;
+}
+.react p{
+    font-size: 20px;
+    color: white;
+font-family: sans-serif;
+width:50%;
+background-color: rgb(147, 207, 135);
+padding: 15px;
+text-align: center;
+border-radius: 15px;
+}
+.serv2{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 130px;
+    margin-left: 70px;
+
+}
+.bootstrap i{
+    color: blue;
+margin-left: 100px;
+}
+.react i{
+    color: gray;
+    margin-left: 100px;
+}
+.node i{
+    color: rgb(211, 26, 72);
+    margin-left: 100px;
+}
+.node p{
+    font-size: 20px;
+    color: white;
+font-family: sans-serif;
+width:50%;
+background-color: rgb(147, 207, 135);
+padding: 15px;
+text-align: center;
+border-radius: 15px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    
+    background-image: url(1stbg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+.heading h1{
+    font-size: 55px;
+    width: 90%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: #dbab0a;
+    font-style: italic;
+} 
+.heading h2{
+ font-family: Arial, Helvetica, sans-serif;
+ color: violet;
+ font-size: 23px;
+}
+.heading h1::first-line{
+    color: rgb(12, 141, 192);
+}
+.heading p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 10;
+    color: rgb(24, 22, 22);
+    font-style: normal;
+    font-size: 18px;
+    width: 85%;
+}
+.heading #b3{
+    color: lavenderblush;
+    background-color: #eb6d6d;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-color: wheat;
+    border-width: 0px;
+    border-radius: 7px;
+    font-weight: 500;
+}
+.txt{
+    margin-left: 50px;
+}
+.sampimg img{
+    width: 500px;
+    height: 600px;
+    border-radius: 1500px;
+    box-shadow: -100px -20px rgb(252, 145, 145);
+   
+}
+.cimg{
+    margin-left: 60px;
+    margin-top: 22px;
+   
+}
+.smcenter{
+    display: flex;
+    background-color: white;
+    padding: 100px;
+
+}
+.smcenter .cimg img{
+ width: 500px;
+ height: 500px;
+ border-radius: 1000px;
+    box-shadow: -10px 5px 10px gray;
+}
+.smcenter .txtarea h1{
+    color: rgb(50, 137, 236);
+    font-family: fantasy;
+    font-size: 50px;
+    font-weight: 600;
+    font-style: italic;
+}
+.smcenter .txtarea h2{
+    color: cadetblue;
+    font-family: fantasy;
+    font-weight: 500;
+    font-size: 20px;
+}
+.smcenter .txtarea p{
+    color: rgb(34, 31, 31);
+    font-family: fantasy;
+    font-weight: 200;
+    padding: 10px;
+
+}
+.smcenter .txtarea{
+    padding: 100px;
+    margin-left: 100px;
+    
+
+}
+.smcenter .txtarea #b4{
+    background-color: rgb(241, 114, 30);
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    border-radius: 7px;
+    border-width: 0;
+    color: white;
+}
+.txtarea{
+    background-image: url(centerbg.webp);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+body{
+    background-color: white;
+}
+.xp h1{
+    color: rgb(29, 131, 226);
+    text-align: center;
+    font-family: fantasy;
+    font-size: 60px;
+    padding: 25px;
+    
+}
+.last{
+    background-color: white;
+display: flex;
+background-image: url(endbg.webp);
+background-repeat: no-repeat;
+background-position: left ;
+
+
+}
+
+.last .present h1{
+    color: rgb(29, 131, 226); 
+    font-family: fantasy;
+    font-style: italic;
+    font-size: 50px;
+}
+.last .present h3{
+    color: gray;
+    font-family: fantasy;
+    font-weight: 300;
+
+}
+.present p{
+    font-size: 20px;
+    font-family:  Arial;
+
+}
+.present{
+margin-left: 30px;
+padding-left: 50px;
+width: 50%;
+border: rgb(192, 83, 83);
+border-width: 10px;
+border-style: solid;
+border-right: rgb(61, 42, 190);
+border-top: slateblue;
+border-bottom: slategrey;
+border-radius: 10px;
+box-shadow: 17px 7px 14px gray;
+box-shadow:  -10px 5px 15px gray;
+}
+.future{
+    align-self: flex-end;
+    width: 50%;
+    margin-left: 20px;
+    box-shadow: -10px 5px 10px gray;
+    padding: 50px;
+    border: rgb(27, 65, 190);
+    border-width: 10px;
+    border-style: solid;
+    border-right: rgb(218, 7, 70);
+    border-top: slateblue;
+    border-bottom: slategrey;
+    border-radius: 10px;
+
+}
+
+.last .future h1{
+    color: rgb(29, 131, 226); 
+    font-family: fantasy;
+    font-style: italic;
+    font-size: 50px;
+}
+.last .future h3{
+    color: gray;
+    font-family: fantasy;
+    font-weight: 300;
+
+}
+.future p{
+    font-size: 20px;
+    font-family:  Arial;
+    
+}
+.present:hover{
+opacity: 0.9
+}
+#b3:hover{
+    opacity: 0.9;
+    cursor: pointer;
+    padding-left: 30px;
+    padding-right: 30px;
+    }
+    #b1:hover{
+        opacity: 0.9;
+        cursor: pointer;
+        
+    }
+    #b2:hover{
+        opacity: 0.9;
+        cursor: pointer;
+      
+    }
+    #b4:hover{
+        opacity: 0.9;
+        cursor: pointer;
+    
+    }
+    .foot{
+
+        width: 800px;
+        margin-left: 270px;
+        box-shadow: -10px 2px 50px gray;
+        padding: 50px;
+        border: rgb(27, 65, 190);
+        border-width: 10px;
+        border-style: solid;
+        border-top: slateblue;
+        border-right: rgb(218, 7, 70);
+        border-bottom: slategrey;
+        border-radius: 10px;
+        margin-bottom: 100px;
+
+    }
+    .foot h1{
+        color: rgb(29, 131, 226); 
+    font-family: fantasy;
+    font-style: italic;
+    font-size: 50px;
+    }
+    .foot h3{
+        color: rgb(41, 45, 46);
+        font-family: fantasy;
+        font-weight: 300;
+    }
+    .foot p{
+        font-size: 20px;
+        font-family:  Arial;
+        color: black;
+    }
+    .foot h2{
+        color: rgb(117, 91, 91);
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    #end{
+        color: rgb(69, 33, 231);
+        font-family: sans-serif;
+        text-align: center;
+        margin-bottom: 100px;
+        cursor: pointer;
+        width: 500px;
+        margin-left: 470px;
+        font-variant: small-caps;
+    }
+    #end:hover{
+        outline: rgb(87, 71, 71) solid;
+        border-radius: 20px;
+        background-color:rgb(37, 159, 207);
+        color: rgb(250, 243, 243);
+        box-shadow: -10px 2px 50px gray;
+    }
+    .html p:hover {
+        box-shadow: -10px 2px 50px gray;
+        border-radius: 20px;
+    }
+    .css p:hover{
+        box-shadow: -10px 2px 50px gray;
+        border-radius: 20px;
+    }
+    .js p:hover{
+        box-shadow: -10px 2px 50px gray;
+        border-radius: 20px;
+    }
+    .bootstrap p:hover{
+        box-shadow: -10px 2px 50px gray;
+        border-radius: 20px;
+    }
+    .node p:hover{
+        box-shadow: -10px 2px 50px gray;
+        border-radius: 20px;
+    }
+    .react p:hover{
+        box-shadow: -10px 2px 50px gray;
+        border-radius: 20px;
+    }
+    .serv1 p:hover{
+        background-color: #f0d468;
+        
+    }
+    
+    .serv2 p:hover{
+        background-color: #f0d468;
+    }
+    .foot:hover{
+        box-shadow: -20px 10px 50px gray;
+        cursor: grab;
+    }
+    .future{
+        box-shadow: -30px 10px 50px gray;
+        cursor: pointer;
+    }
+    .present{
+        10
+        box-shadow: -10px 10px 0px gray;
+        cursor: pointer;
+    }
+    .section .cont h1:hover{
+        text-shadow: -1px 1px 0px gray;
+    }
+    footer{
+        background-color: rgb(6, 10, 27);
+        color: white;
+        padding-top: 20px;
+        opacity: 0.9;
+        border: rgb(32, 31, 31) solid 5px;
+        border-radius: 10px;
+        border-bottom: tan;
+    }
+.fotcon{
+    display: flex;
+
+}
+ .fotcon li{
+text-decoration: none;
+list-style: none;
+font-size: 20px;
+padding-right: 150px;                                                                           
+padding-top:10px;
+}
+.form{
+    background-color: rgba(71, 245, 149, 0.76);
+    display: block;
+    padding: 100px;
+    width: 400px;
+    align-self: center;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 20px;
+    border-color: white;
+  
+
+}
+#next{
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size:800px;
+    background-color: rgb(151, 187, 253);
+}
+.form input{
+    padding: 10px;
+    background-color: rgb(244, 248, 244);
+    width: 350px;
+    height: 30px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 1px 1px white;
+    font-style: normal;
+    font-family: sans-serif;
+    font-size: 17px;
+    
+}
+input:hover{
+    color: rgb(21, 69, 201);
+    box-shadow: -10px 5px 10px rgb(216, 208, 208);
+    border-color: white;
+    font-family: fantasy;
+    font-variant: small-caps;
+    
+}
+.form:hover{
+    box-shadow: -10px 2px 50px gray;
+}
+#sub1{ 
+    background-color: rgb(10, 64, 68);
+    color: white;
+    font-size: 20px;
+    font-family: fantasy;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border-width: 0px;
+    border-color: rgb(37, 32, 32);
+    position: relative;
+    left: 700px;
+}
+#sub{
+    background-color: rgb(10, 64, 68);
+    color: white;
+    font-size: 20px;
+    font-family: fantasy;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    border-width: 0px;
+    border-color: rgb(37, 32, 32);
+    margin-left: 120px;
+    margin-top: 50px;
+}
+#sub:hover{
+    box-shadow: -10px 2px 50px gray;
+    cursor: pointer;
+}
+
+
